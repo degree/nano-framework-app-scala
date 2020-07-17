@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="sbt: by.degree.learn:nano-framework:1.0-SNAPSHOT:jar">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/by/degree/learn/nano-framework/1.0-SNAPSHOT/nano-framework-1.0-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
