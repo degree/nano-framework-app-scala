@@ -7,7 +7,7 @@ import by.degree.learn.nano.framework.{Inject, Singleton}
 class DisinfectorImpl extends Disinfector {
 
   @Inject
-  private[this] var enforcer: Enforcer = _
+  private[this] val enforcer: Enforcer = null
 
   override def disinfect(room: Room): Unit = {
     enforcer.enforce()

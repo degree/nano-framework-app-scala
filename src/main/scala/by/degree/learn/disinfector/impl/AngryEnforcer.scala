@@ -7,7 +7,7 @@ import by.degree.learn.nano.framework.{InjectProperty, PostConstruct, Primary}
 class AngryEnforcer extends Enforcer {
 
   @InjectProperty("enforcer.enhanced.name")
-  private[this] var name: String = _
+  private[this] val name: String = null
 
   override def enforce(): Unit = println(s"$name: get out!")
 
