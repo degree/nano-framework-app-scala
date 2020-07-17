@@ -1,0 +1,2 @@
+# Nano Framework App Scala
+
