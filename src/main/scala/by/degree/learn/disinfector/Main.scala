@@ -4,7 +4,7 @@ import by.degree.learn.disinfector.model.{Disinfector, Room}
 import by.degree.learn.nano.framework.Application
 
 object Main extends App {
-  private val context = Application.run("by.degree.learn.disinfector")
-  private val disinfector = context.getObject(classOf[Disinfector])
-  disinfector.disinfect(Room("laboratory"))
+  Application.run("by.degree.learn.disinfector")
+    .getObject(classOf[Disinfector])
+    .disinfect(Room("laboratory"))
 }
