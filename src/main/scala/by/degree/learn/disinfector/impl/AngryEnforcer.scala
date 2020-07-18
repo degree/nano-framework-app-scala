@@ -12,5 +12,5 @@ class AngryEnforcer extends Enforcer {
   override def enforce(): Unit = println(s"$name: get out!")
 
   @PostConstruct
-  def init() = println(s"$name is getting angry...")
+  def init(): Unit = println(s"$name is getting angry...")
 }
