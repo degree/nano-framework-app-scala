@@ -4,6 +4,8 @@
       <root url="jar://$MAVEN_REPOSITORY$/by/degree/learn/nano-framework/1.0-SNAPSHOT/nano-framework-1.0-SNAPSHOT.jar!/" />
     </CLASSES>
     <JAVADOC />
-    <SOURCES />
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/by/degree/learn/nano-framework/1.0-SNAPSHOT/nano-framework-1.0-SNAPSHOT-sources.jar!/" />
+    </SOURCES>
   </library>
 </component>
