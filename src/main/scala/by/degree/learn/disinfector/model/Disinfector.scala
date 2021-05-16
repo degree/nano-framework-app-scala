@@ -1,5 +1,5 @@
 package by.degree.learn.disinfector.model
 
 trait Disinfector {
-  def disinfect(room: Room)
+  def disinfect(room: Room): Unit
 }
