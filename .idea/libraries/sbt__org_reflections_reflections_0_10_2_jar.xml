@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="sbt: org.reflections:reflections:0.10.2:jar">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/reflections/reflections/0.10.2/reflections-0.10.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
